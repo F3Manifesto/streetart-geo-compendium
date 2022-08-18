@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Armata" sans-serif;
+  font-family: 'Londrina Solid', cursive;
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: black !important;
+}
+
+body {
+  background-color: black !important;
+}
+
+main {
+  background-color: black !important;
+}
+
+.leaflet-control-layers .leaflet-control-layers-list, .leaflet-control-layers-expanded .leaflet-control-layers-toggle {
+  font-family: 'Cooper Black';
+  font-size: small;
+  color: white;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 0.5px;
+}
+
+.leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar .leaflet-control-layers-expanded {
+  background-color: grey;
+  background-image: none;
+}
+
+.leaflet-touch .leaflet-control-layers-toggle {
+  border-radius: 20px;
+}
+
+
+.leaflet-touch .leaflet-control-zoom-in, .leaflet-touch .leaflet-control-zoom-out { 
+  background-color: grey;
+  color: white;
+  font-family: 'Cooper Black';
+  font-size: 30px;
+}
+
+
+.__json-pretty-error__ {
+  padding-bottom: 15px;
+  cursor: text;
+  font-family: sans-serif;
+  white-space: pre-line;
+}
+
+.copy { 
+  cursor: pointer;
+}
